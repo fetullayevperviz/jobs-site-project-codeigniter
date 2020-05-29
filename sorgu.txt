@@ -1,1 +1,0 @@
-SELECT cat_name,COUNT(cat_name) AS cat_count FROM job_list j INNER JOIN category c ON j.category=c.id GROUP BY cat_name
